@@ -1,8 +1,8 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.div-principal{
+.div-principal {
     margin-left: 20%;
     margin-right: 20%;
     border: 1px solid #878787;
@@ -10,7 +10,7 @@ body{
     background-color: #f8f8f8;
 }
 
-.linha-titulo{
+.linha-titulo {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
@@ -19,24 +19,24 @@ body{
     margin-bottom: 2%;
 }
 
-.div-interna-elementos{
+.div-interna-elementos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.legenda-imagem{
+.legenda-imagem {
     text-align: center;
     font-weight: bold;
 }
 
-.button{
+.button {
     border-radius: 25px;
     background-color: blue;
     text-align: center;
-    color:white;
-    border:none;
+    color: white;
+    border: none;
     padding: 10px;
     cursor: pointer;
 }

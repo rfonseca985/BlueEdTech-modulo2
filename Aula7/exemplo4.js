@@ -18,7 +18,7 @@ function liberarBotaoClicado() {
     console.log("Evento adicionado ao botão. Clique para exibir uma mensagem.");
 
     // Remover evento após 3 segundos
-    setTimeout(function () {
+    setTimeout(function() {
         botao.removeEventListener("click", botaoFoiClicado);
 
         botao.innerHTML = 'Tempo expirado :(';
@@ -33,5 +33,3 @@ function liberarBotaoClicado() {
 liberarBotao.addEventListener("click", liberarBotaoClicado);
 
 liberarBotaoClicado();
-
-

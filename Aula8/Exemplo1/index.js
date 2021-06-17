@@ -32,16 +32,15 @@ elementoSobrenome.innerText = pessoa.sobrenome;
 elementoIdade.innerText = pessoa.idade;
 
 // Definição da função de atualização do humor
-function atualizaHumor(){
+function atualizaHumor() {
     pessoa.doido = !pessoa.doido;
     const elementoImagem = document.querySelector("#imagem");
     const elementoHumor = document.querySelector("#bloco_humor");
 
-    if (pessoa.doido){
+    if (pessoa.doido) {
         elementoImagem.src = pessoa.imagem_doido;
         elementoHumor.innerHTML = pessoa.nome + ' tá <b>DOIDO</b>!';
-    }
-    else{
+    } else {
         elementoImagem.src = pessoa.imagem_serio;
         elementoHumor.innerHTML = pessoa.nome + ' tá <b>SÉRIO</b>!';
     }
